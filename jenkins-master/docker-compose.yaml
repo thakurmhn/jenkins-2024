@@ -2,7 +2,7 @@ version: '3'  # docker-compse version
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins/jenkins
+    image: jenkins/jenkins:2.455
     ports:
       - "8080:8080"
     volumes:
